@@ -37,8 +37,8 @@ const App: () => Node = () => {
 
   return (
     // <WelcomeScreen/>
-    // <InfoScreen />
-    <DoneScreen/>
+    <InfoScreen />
+    // <DoneScreen/>
   );
 };
 

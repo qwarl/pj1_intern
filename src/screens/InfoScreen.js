@@ -11,6 +11,9 @@ import noodles1 from '../img/noodles1.png'
 import _3CupsLeft from '../img/3CupsLeft.png'
 import GetNoodles from '../img/GetNoodles.png'
 import avatar from '../img/Rosamundpike.jpg'
+import hover from '../img/hover.png'
+import unavailableNoodles from '../img/unavailableNoodles.png'
+import comeLater from '../img/comeLater.png'
 const InfoScreen = () => {
     return (
         <ImageBackground source={bg} resizeMode='cover' style={styles.container}>
@@ -48,16 +51,35 @@ const InfoScreen = () => {
                     </Text>
                 </View>
             </ImageBackground>
+            {/* cham do khi cham vao ly my */}
+            <View style={styles.css_hover}>
+                <Image style={styles.hover} source={hover} />
+                <Image style={styles.hover} source={hover} />
+                <Image style={styles.hover} source={hover} />
+            </View>
+            {/* ly my khi con */}
             <View style={styles.css_noodles}>
                 <Image style={styles.noodles1} source={noodles1} />
                 <Image style={styles.noodles2} source={noodles2} />
                 <Image style={styles.noodles3} source={noodles3} />
             </View>
-            <View style={{ flexDirection: 'row' }}>
+            {/* ly my khi da het */}
+            <View style={styles.css_unavailableNoodles}>
+                <Image style={styles.unavailableNoodles} source={unavailableNoodles} />
+                <Image style={styles.unavailableNoodles} source={unavailableNoodles} />
+                <Image style={styles.unavailableNoodles} source={unavailableNoodles} />
+            </View>
+            <View style={styles.unavailableText}>
+                <Text style={styles.css_unavailableText}>Unavailable</Text>
+                <Text style={styles.css_unavailableText}>Unavailable</Text>
+                <Text style={styles.css_unavailableText}>Unavailable</Text>
+            </View>
+            <View style={{ flexDirection: 'row',marginTop:8 }}>
                 <Text style={styles.css_number}>3 </Text>
                 <Text style={styles.css_noti}>cups of noodles left this month</Text>
             </View>
             <Image style={styles.GetNoodles} source={GetNoodles} />
+            <Image style={styles.comeLater} source={comeLater} />
         </ImageBackground>
     )
 }
@@ -101,7 +123,6 @@ const styles = StyleSheet.create({
         marginTop: 10,
         width: 60,
         height: 120,
-        marginLeft: -10,
     },
     css_noodles: {
         flexDirection: 'row',
@@ -116,7 +137,12 @@ const styles = StyleSheet.create({
     GetNoodles: {
         width: 180,
         height: 30,
-        marginTop: 40,
+        marginTop: 30,
+    },
+    comeLater:{
+        width: 180,
+        height: 30,
+        marginTop:-30,
     },
     avatar: {
         borderRadius: width / 2,
@@ -145,9 +171,48 @@ const styles = StyleSheet.create({
     },
     css_noti: {
         fontFamily: 'PaytoneOne-Regular',
+        fontSize:9,
     },
     css_number: {
-         color: '#D91313',
-         fontFamily: 'PaytoneOne-Regular' ,
+        color: '#D91313',
+        fontFamily: 'PaytoneOne-Regular',
+        fontSize:9,
+
+    },
+    hover: {
+        width: 80,
+        height: 80,
+    },
+    css_hover: {
+        flexDirection: 'row',
+        width: 280,
+        justifyContent: 'space-around',
+        position: 'absolute',
+        marginTop: 325,
+    },
+    css_unavailableNoodles: {
+        flexDirection: 'row',
+        width: 280,
+        justifyContent: 'space-around',
+        position: 'absolute',
+        marginTop: 285,
+    },
+    unavailableNoodles: {
+        marginTop: 10,
+        width: 60,
+        height: 120,
+    },
+    css_unavailableText:{
+        fontFamily:'PaytoneOne-Regular',
+        fontWeight:'400',
+        fontSize:10,
+        width: 90,
+        // marginLeft:
+    },
+    unavailableText:{
+         flexDirection: 'row' ,
+        justifyContent: 'space-around',
+        marginLeft:40,
+        marginTop:-10,
     }
 })

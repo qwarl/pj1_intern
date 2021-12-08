@@ -7,6 +7,7 @@ import Done from '../img/Done.png'
 import altaNoodle from '../img/altaNoodle.png'
 import heart from '../img/heart.png'
 import backHome from '../img/backHome.png'
+import downArrow from '../img/downArrow.png'
 const DoneScreen = () => {
     return (
         <ImageBackground source={bg} resizeMode='cover' style={styles.container}>
@@ -20,6 +21,7 @@ const DoneScreen = () => {
             </View>
             <Image style={styles.backHome} source={backHome} />
             <Text style={styles.css_textBelow}>Get them below</Text>
+            <Image style={styles.downArrow} source={downArrow} />
         </ImageBackground>
 
     )
@@ -62,12 +64,20 @@ const styles = StyleSheet.create({
         marginLeft: 5,
         marginTop: 9,
     },
-    backHome:{
+    backHome: {
         width: 180,
         height: 32,
         marginTop: 80,
     },
-    css_textBelow:{
-        
+    css_textBelow: {
+        fontFamily: 'MPLUS1p-Regular',
+        fontWeight: '800',
+        color: '#F8C135',
+        marginTop: 20,
+    },
+    downArrow: {
+        width: 18,
+        height: 30,
+        marginTop: 5,
     }
 })

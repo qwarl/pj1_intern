@@ -15,6 +15,7 @@
 		DB58212E15DE4180B891585B /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39602E0F13DF429AB69A5A80 /* Nunito-Regular.ttf */; };
 		895502E64AA04432A7ECE974 /* PaytoneOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BADCB91BBEAE4BF1A4ED0DEC /* PaytoneOne-Regular.ttf */; };
 		3D2CD6DC1ECA47A19922F2A2 /* MPLUS1p-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C367DFC2B50846BFB63F9A6A /* MPLUS1p-Regular.ttf */; };
+		5A292196CC654EBA85F24B12 /* SVN-Nexa Rust Slab Black Shadow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C472BA4A66FB47DD848A6975 /* SVN-Nexa Rust Slab Black Shadow.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		39602E0F13DF429AB69A5A80 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; name = "Nunito-Regular.ttf"; path = "../src/assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		BADCB91BBEAE4BF1A4ED0DEC /* PaytoneOne-Regular.ttf */ = {isa = PBXFileReference; name = "PaytoneOne-Regular.ttf"; path = "../src/assets/fonts/PaytoneOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		C367DFC2B50846BFB63F9A6A /* MPLUS1p-Regular.ttf */ = {isa = PBXFileReference; name = "MPLUS1p-Regular.ttf"; path = "../src/assets/fonts/MPLUS1p-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C472BA4A66FB47DD848A6975 /* SVN-Nexa Rust Slab Black Shadow.ttf */ = {isa = PBXFileReference; name = "SVN-Nexa Rust Slab Black Shadow.ttf"; path = "../src/assets/fonts/SVN-Nexa Rust Slab Black Shadow.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				39602E0F13DF429AB69A5A80 /* Nunito-Regular.ttf */,
 				BADCB91BBEAE4BF1A4ED0DEC /* PaytoneOne-Regular.ttf */,
 				C367DFC2B50846BFB63F9A6A /* MPLUS1p-Regular.ttf */,
+				C472BA4A66FB47DD848A6975 /* SVN-Nexa Rust Slab Black Shadow.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				DB58212E15DE4180B891585B /* Nunito-Regular.ttf in Resources */,
 				895502E64AA04432A7ECE974 /* PaytoneOne-Regular.ttf in Resources */,
 				3D2CD6DC1ECA47A19922F2A2 /* MPLUS1p-Regular.ttf in Resources */,
+				5A292196CC654EBA85F24B12 /* SVN-Nexa Rust Slab Black Shadow.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
