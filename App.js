@@ -28,6 +28,8 @@ import {
 import WelcomeScreen from './src/screens/WelcomeScreen';
 import InfoScreen from './src/screens/InfoScreen';
 import DoneScreen from './src/screens/DoneScreen';
+import OutOfNoodlesScreen from './src/screens/OutOfNoodlesScreen';
+import ErrorScreen from './src/screens/ErrorScreen';
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -37,8 +39,10 @@ const App: () => Node = () => {
 
   return (
     // <WelcomeScreen/>
-    <InfoScreen />
+    // <InfoScreen />
     // <DoneScreen/>
+    // <OutOfNoodlesScreen/>
+    <ErrorScreen/>
   );
 };
 
