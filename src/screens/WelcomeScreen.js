@@ -14,7 +14,7 @@ const WelcomeScreen = () => {
         <ImageBackground source={bg} resizeMode='cover' style={styles.container}>
             <StatusBar translucent backgroundColor="transparent" />
             <Image style={styles.logo} source={logo} />
-            <Image style={styles.welcome} source={welcome} />
+            <Text style={styles.css_screenText}>WELCOME</Text>
             <Image style={styles.frame} source={frame} />
             <Image style={styles.scan} source={scan} />
             <Image style={styles.card} source={card} />
@@ -37,10 +37,11 @@ const styles = StyleSheet.create({
         height: 70,
         marginTop: 25,
     },
-    welcome: {
-        width: 215,
-        height: 25,
-        marginTop: 30,
+    css_screenText: {
+        fontFamily: 'SVN-Nexa Rust Slab Black Shadow',
+        color: '#C71A1A',
+        fontSize: 30,
+        marginTop: 5,
     },
     frame: {
         width: 290,

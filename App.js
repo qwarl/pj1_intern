@@ -39,10 +39,10 @@ const App: () => Node = () => {
 
   return (
     // <WelcomeScreen/>
-    // <InfoScreen />
+    <InfoScreen />
     // <DoneScreen/>
     // <OutOfNoodlesScreen/>
-    <ErrorScreen/>
+    // <ErrorScreen/>
   );
 };
 

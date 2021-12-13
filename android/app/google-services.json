@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589611371958",
+    "project_id": "noodles-1383a",
+    "storage_bucket": "noodles-1383a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589611371958:android:404cddfa1ff6a0688d0517",
+        "android_client_info": {
+          "package_name": "com.cli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589611371958-necvi45rcd06q4euk77taq50qmkjet6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI5Ux2SkzMoy_G29dxVWtPzKv4E4MRPVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589611371958-necvi45rcd06q4euk77taq50qmkjet6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

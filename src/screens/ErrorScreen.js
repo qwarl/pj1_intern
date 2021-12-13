@@ -46,8 +46,8 @@ const styles = StyleSheet.create({
     css_screenText: {
         fontFamily: 'SVN-Nexa Rust Slab Black Shadow',
         color: '#C71A1A',
-        fontSize: 27,
-        marginTop: 20,
+        fontSize: 30,
+        marginTop: 15,
     },
     css_p: {
         fontFamily: 'Nunito-Regular',

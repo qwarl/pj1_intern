@@ -13,7 +13,7 @@ const DoneScreen = () => {
         <ImageBackground source={bg} resizeMode='cover' style={styles.container}>
             <StatusBar translucent backgroundColor="transparent" />
             <Image style={styles.logo} source={logo} />
-            <Image style={styles.Done} source={Done} />
+            <Text style={styles.css_screenText}>DONE</Text>
             <Image style={styles.altaNoodle} source={altaNoodle} />
             <View style={{ flexDirection: 'row' }}>
                 <Text style={styles.css_text}>Enjoy your noodles</Text>
@@ -41,10 +41,11 @@ const styles = StyleSheet.create({
         height: 70,
         marginTop: 25,
     },
-    Done: {
-        width: 105,
-        height: 25,
-        marginTop: 30,
+    css_screenText: {
+        fontFamily: 'SVN-Nexa Rust Slab Black Shadow',
+        color: '#C71A1A',
+        fontSize: 30,
+        marginTop: 5,
     },
     altaNoodle: {
         width: 166,
